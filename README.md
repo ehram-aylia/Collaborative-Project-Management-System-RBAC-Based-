@@ -52,17 +52,14 @@ The system emphasizes **user-centered design** and **role-based access control (
    cd collaborative-project-board
 Create and activate a virtual environment:
 
-bash
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 Install dependencies:
 
-bash
 pip install -r requirements.txt
 Run the app:
 
-bash
 python app.py
 Open your browser at:
 
