@@ -50,22 +50,26 @@ The system emphasizes **user-centered design** and **role-based access control (
    ```bash
    git clone https://github.com/<your-username>/collaborative-project-board.git
    cd collaborative-project-board
-Create and activate a virtual environment:
+   
+## Create and activate a virtual environment:
 
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
-Install dependencies:
+##  Install dependencies:
 
 pip install -r requirements.txt
-Run the app:
+## Run the app:
 
 python app.py
-Open your browser at:
-
-text
+## Open your browser at:
 http://127.0.0.1:5000
-Usage
+
+
+---
+
+
+## Usage
 Log in by selecting a username and role
 
 Access your dashboard according to your role
@@ -78,7 +82,10 @@ Lock/unlock tasks to prevent concurrent edits
 
 Real-time updates are reflected across all connected users
 
-Project Workflow
+---
+
+
+## Project Workflow
 Authentication: Users enter username and role
 
 Concurrency Control: Task locking prevents conflicts
@@ -89,19 +96,27 @@ Real-Time Updates: Changes reflected instantly
 
 Activity Logging: Tracks user actions with timestamps
 
-Limitations
+---
+
+
+## Limitations
 No VR headset integration
 
 Limited voice-based interaction
 
 Basic conflict resolution strategies
 
-Future Improvements
+---
+
+
+## Future Improvements
 Full VR environment support
 
 Voice commands for task management
 
 Advanced deadlock detection and conflict resolution algorithms
-EOF
+
+---
+
 
 
