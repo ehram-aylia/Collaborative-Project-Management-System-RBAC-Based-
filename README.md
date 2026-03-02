@@ -48,7 +48,7 @@ The system emphasizes **user-centered design** and **role-based access control (
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your-username>/collaborative-project-board.git
+   git clone https://github.com/ehram-awan/collaborative-project-board.git
    cd collaborative-project-board
    
 ## Create and activate a virtual environment:
